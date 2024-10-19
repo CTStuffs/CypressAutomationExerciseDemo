@@ -1,15 +1,15 @@
-import HeaderBar from '../models/headerBar'
-import ProductListPage from '../models/productListPage'
-import ProductDetailsPage from "../models/productDetailsPage"
+import HeaderBar from '../models/headerBar';
+import ProductListPage from '../models/productListPage';
+import ProductDetailsPage from '../models/productDetailsPage';
 import productData from "../data/product.json";
 import signInData from "../data/signin.json";
-import NewUserWidget from '../models/newUserWidget'
+import NewUserWidget from '../models/newUserWidget';
 import RegisterPage from '../models/registerPage';
-import AccountCreatedPage from '../models/accountCreatedPage'
+import AccountCreatedPage from '../models/accountCreatedPage';
 
-import ModalPopup from "../models/modalPopup"
-import CartPage from "../models/cartPage"
-import randomizeNum from "../support/util"
+import ModalPopup from '../models/modalPopup';
+import CartPage from '../models/cartPage';
+import randomizeNum from '../support/util';
 
 const productListP = new ProductListPage();
 const productDetailsP = new ProductDetailsPage();
@@ -21,7 +21,7 @@ const accountCreateP = new AccountCreatedPage();
 const registerP = new RegisterPage();
 
 
-describe('Product page functionality', () => {
+describe('Product Page test cases', () => {
 
     beforeEach(() => {
         cy.visitHome();
@@ -40,7 +40,7 @@ describe('Product page functionality', () => {
 
         headerB.clickMenuItem("Products");
         productListP.searchProduct("White");
-        productListP.checkTitle("Searched Products")
+        productListP.checkTitle("Searched Products");
         productListP.checkProductExists(productData.products[1].name).checkProductExists(productData.products[2].name).checkProductExists("Printed Off Shoulder Top - White");
 
     });
@@ -72,7 +72,7 @@ describe('Product page functionality', () => {
 
         cartP.verifyProductInfo(productT1.id, productT1.name, productT1.price, "1", productT1.price).verifyProductInfo(productT2.id, productT2.name, productT2.price, "1", productT2.price);
         headerB.clickMenuItem("Delete Account");
-        accountCreateP.checkAccountDeletedMsg("Account Deleted!")
+        accountCreateP.checkAccountDeletedMsg("Account Deleted!");
 
     })
 

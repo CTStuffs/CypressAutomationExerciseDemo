@@ -4,7 +4,7 @@ class LoginUserWidget {
         loginEmail: () => cy.getByDataQa("login-email"),
         loginPassword: () => cy.getByDataQa("login-password"),
         loginBtn: () => cy.getByDataQa("login-button"),
-        errorMsgLogin: () => cy.get('.login-form > form> p'),
+        errorMsgLogin: () => cy.get(".login-form > form> p"),
 
     }
 

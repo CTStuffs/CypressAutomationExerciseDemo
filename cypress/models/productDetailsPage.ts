@@ -1,8 +1,8 @@
 class productDetailsPage {
     elements = {
-        productInformation: () => cy.get('.product-information'),
-        quantityField: () => cy.get('#quantity'),
-        addToCartBtn: () => cy.get('.cart')
+        productInformation: () => cy.get(".product-information"),
+        quantityField: () => cy.get("#quantity"),
+        addToCartBtn: () => cy.get(".cart")
     }
 
     checkProductInformation(info: string[]) {
@@ -10,14 +10,17 @@ class productDetailsPage {
             this.elements.productInformation().contains(i);
 
         })
+        return this;
     }
 
     changeQuantity(quantity: string) {
         this.elements.quantityField().clearThenType(quantity);
+        return this;
     }
 
     addToCart() {
         this.elements.addToCartBtn().click();
+        return this;
     }
 
 }

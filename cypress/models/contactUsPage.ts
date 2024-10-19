@@ -1,4 +1,4 @@
-class contactUsPage {
+class ContactUsPage {
     elements = {
         formHeaderTitle: () => cy.get("div[class='contact-form'] h2[class='title text-center']"),
         nameField: () => cy.getByDataQa("name"),

@@ -1,7 +1,7 @@
 class HeaderBar {
     elements = {
-        shopMenu: () => cy.get('.nav'),
-        loginName: () => cy.get('.nav > :nth-child(10)')
+        shopMenu: () => cy.get(".nav"),
+        loginName: () => cy.get(".nav > :nth-child(10)")
     }
 
     clickMenuItem(item: string) {

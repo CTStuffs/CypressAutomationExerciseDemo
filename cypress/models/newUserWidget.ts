@@ -4,7 +4,7 @@ class NewUserWidget {
         signupName: () => cy.getByDataQa("signup-name"),
         signupEmail: () => cy.getByDataQa("signup-email"),
         signupBtn: () => cy.getByDataQa("signup-button"),
-        errorMsgSignup: () => cy.get('.signup-form > form> p')
+        errorMsgSignup: () => cy.get(".signup - form > form > p")
 
     }
 

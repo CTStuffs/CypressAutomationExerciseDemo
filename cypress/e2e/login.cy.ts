@@ -1,10 +1,10 @@
-import signInData from "../data/signin.json";
-import LoginUserWidget from '../models/loginUserWidget'
-import NewUserWidget from '../models/newUserWidget'
-import HeaderBar from '../models/headerBar'
-import AccountCreatedPage from '../models/accountCreatedPage'
+import signInData from '../data/signin.json';
+import LoginUserWidget from '../models/loginUserWidget';
+import NewUserWidget from '../models/newUserWidget';
+import HeaderBar from '../models/headerBar';
+import AccountCreatedPage from '../models/accountCreatedPage';
 import RegisterPage from '../models/registerPage';
-import randomizeNum from "../support/util"
+import randomizeNum from '../support/util';
 
 
 const loginUserW = new LoginUserWidget();
@@ -13,9 +13,7 @@ const headerB = new HeaderBar();
 const registerP = new RegisterPage();
 const accountCreateP = new AccountCreatedPage();
 
-
-
-describe('login-related tests', () => {
+describe('Login & Register test cases', () => {
 
     beforeEach(() => {
         cy.visitHome();

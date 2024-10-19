@@ -1,9 +1,9 @@
 class CheckoutPage {
     elements = {
-        addressDelivery: () => cy.get('#address_delivery'),
-        addressInvoice: () => cy.get('#address_invoice'),
+        addressDelivery: () => cy.get("#address_delivery"),
+        addressInvoice: () => cy.get("#address_invoice"),
         orderMsgField: () => cy.get("textarea[name='message']"),
-        placeOrderBtn: () => cy.get('.check_out')
+        placeOrderBtn: () => cy.get(".check_out")
     }
 
     enterOrderMsg(text: string) {

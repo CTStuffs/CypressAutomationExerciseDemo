@@ -1,6 +1,6 @@
 class ModalPopup {
     elements = {
-        closeBtn: () => cy.get('.close-modal '),
+        closeBtn: () => cy.get(".close-modal "),
         registerLoginLink: () => cy.get(".modal-content").find("a[href*='login']")
     }
 

@@ -1,7 +1,7 @@
 class CategoryBar {
     elements = {
-        accordion: () => cy.get('#accordian'),
-        brandsList: () => cy.get('.brands-name')
+        accordion: () => cy.get("#accordian"),
+        brandsList: () => cy.get(".brands - name")
     }
 
     checkExists() {
