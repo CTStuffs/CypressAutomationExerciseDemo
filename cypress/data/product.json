@@ -1,0 +1,31 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Blue Top",
+            "category": "Category: Women > Tops",
+            "price": "Rs. 500",
+            "availability": "Availability: In Stock",
+            "condition": "Condition: New",
+            "brand": "Brand: Polo"
+        },
+        {
+            "id": 6,
+            "name": "Summer White Top",
+            "category": "Category: Women > Tops",
+            "price": "Rs. 400",
+            "availability": "Availability: In Stock",
+            "condition": "Condition: New",
+            "brand": "Brand: H&M"
+        },
+        {
+            "id": 11,
+            "name": "Sleeves Printed Top - White",
+            "category": "Category: Kids > Tops & Shirts",
+            "price": "Rs. 499",
+            "availability": "Availability: In Stock",
+            "condition": "Condition: New",
+            "brand": "Babyhug"
+        }
+    ]
+}

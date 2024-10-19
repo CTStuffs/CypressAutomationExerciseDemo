@@ -1,0 +1,27 @@
+{
+    "email": "Test142234@gmail.com",
+    "password": "Password123!",
+    "firstName": "Automation",
+    "lastName": "Test",
+    "dob": {
+        "day": "12",
+        "month": "1",
+        "year": "1999"
+    },
+    "address": {
+        "addressFull": "Test TestTown 1111",
+        "country": "Israel",
+        "state": "Somewhere",
+        "city": "Elsewhere",
+        "zipcode": "3000",
+        "mobile": "040000000"
+    },
+    "badSignIn": {
+        "bademail": "DOESNOTEXIST@DOESNOTEXIST.COM",
+        "badpassword": "BADPASSWORDBADPASSWORD"
+    },
+    "existingSignIn": {
+        "name": "test",
+        "email": "test@test.com"
+    }
+}
