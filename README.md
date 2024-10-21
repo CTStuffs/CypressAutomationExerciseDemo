@@ -1,6 +1,6 @@
 # Cypress SwagLabs Testing Demo
 
-This is a short project intended to showcase [Playwright](https://docs.cypress.io/) automation on the [Automation Exercise Website](https://automationexercise.com/)
+This is a short project intended to showcase [Cypress](https://docs.cypress.io/) automation on the [Automation Exercise Website](https://automationexercise.com/)
 
 ## Installation
 Clone this respository, then use the package manager [npm](https://www.npmjs.com/) to install this project.
